@@ -31,6 +31,9 @@ int main()
             case '/':
                 r = divide(a,b);
                 break;
+            default: 
+            	r = -1;
+            	cout << "Error, invalid operator" << endl;
         }
 
         cout << a << " " << op << " " << b << " = " << r << endl;
