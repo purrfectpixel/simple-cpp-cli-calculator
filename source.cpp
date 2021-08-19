@@ -39,11 +39,9 @@ int main()
         cout << a << " " << op << " " << b << " = " << r << endl;
         cout << "Continue? [y/n]: ";
         cin >> op;
-        if(op == 'y')
+        if(op != 'y')
         {
-            ;
-        }
-        else
             return 0;
+        }  
     }
 }
